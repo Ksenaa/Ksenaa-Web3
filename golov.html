@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Користувач</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        input[type=submit] {
+            background-color: #9DB1CC;
+            border: none;
+            padding: 5px 20px;
+            margin: 10px 10px;
+            color: #252850;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        input[type="text"] {
+            border: 1px solid #646C8F;
+            border-radius: 5px;
+            margin-bottom: 7px;
+            margin-left: 10px;
+        }
+
+        input[type="Date"] {
+            border: 1px solid #646C8F;
+            border-radius: 5px;
+            margin-bottom: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset width="10">
+        <legend>
+            <font size="5" color="012030"><em>Введіть дані: <br></em>
+        </legend>
+        <form action="one_1.php" method="post">
+            <font size="4" color="#13678A">E-Mail: </font><input type="text" name="eMail"  /><br />
+            <font size="4" color="#13678A">Телефон: </font><input type="text" name="Phone" /><br />
+            <font size="4" color="#13678A">Дата: </font><input type="datetime" name="Date" /><br />
+            <input type="submit" name="send" value="Відправити" />
+        </form>
+    </fieldset>
+</body>
+
+</html>
